@@ -38,3 +38,15 @@
 - TemperatureRange
 - Name
 - Date
+- BackgroundImage   
+
+### 全局 Assets
+
+- fonts
+- bg image
+
+
+#### VS CODE 插件   
+
+- Image preview
+- Code Spell Checker
