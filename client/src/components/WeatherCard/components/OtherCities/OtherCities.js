@@ -1,7 +1,7 @@
 import City from "./components/City/City";
 
 const OtherCities = () => (
-    <div>
+    <div className="flex">
         <City />
         <City />
         <City />
