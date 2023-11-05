@@ -1,6 +1,6 @@
-const Temperature = () =>  (
-    <div>
-      Temperature
+const Temperature = ({value, className}) =>  (
+    <div className={className}>
+      {value}°
     </div>
   )
 

@@ -1,6 +1,6 @@
-const TemperatureRange = () => ( 
-        <div>
-            TemperatureRange
+const TemperatureRange = ({value, className}) => ( 
+        <div className={className}>
+            {value}°
         </div>
      );
  

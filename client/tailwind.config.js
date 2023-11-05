@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'alimama': ['AlimamaFangYuanTiVF-Square', 'helvetica']
+      }
+    },
   },
   plugins: [],
 }

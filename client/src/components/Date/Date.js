@@ -1,6 +1,6 @@
-const Date = () => (
-    <div >
-        date
+const Date = ({value, className}) => (
+    <div className={className}>
+        {value}
     </div>
 )
 
