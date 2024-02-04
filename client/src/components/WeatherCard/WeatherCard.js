@@ -13,7 +13,7 @@ const WeatherCard = () => (
         >
        <CurrentCity />
        </div>
-       <div className="row-span-3 col-span-4 border-8 m-6">
+       <div className="row-span-3 col-span-4  m-6">
        <Forecast />
        </div>
        <div className="row-span-1 col-span-4 border-8 m-6">

@@ -1,6 +1,6 @@
-const TemperatureRange = ({value, className}) => ( 
+const TemperatureRange = ({value, className, loading}) => ( 
         <div className={className}>
-            {value}°
+            {loading? "...loading": `${value}°`}
         </div>
      );
  
