@@ -1,0 +1,33 @@
+ - WeatherCard
+        - CurrentCity
+            - Date
+            - Name
+            - Temperature
+            - TemperatureRange
+            - WeatherIcon
+            - Meta
+                - Humidity
+                - Wind
+                - AirQuality
+                - Somatosensory
+        - Forecast
+            - DayOfWeek[]
+                - Name
+                - Date
+                - WeatherIcon
+                - TemperatureRange
+        - SearchBar
+            - Input
+            - Button
+        - OtherCities
+            - City[]
+                - WeatherIcon
+                - Name
+                - TemperatureRange
+
+- 公共组件
+
+ - TemperatureRange
+- WeatherIcon
+ - Date
+- Name

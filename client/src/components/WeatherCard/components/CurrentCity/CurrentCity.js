@@ -9,7 +9,7 @@ import bg from './assets/Cloudy_day_background.png';
 import icon from '../../../WeatherIcon/assets/Cloudy_day.png'
 
 const CurrentCity = () => (
-    <div className='flex flex-col items-center space-y-6 shadow-md'>
+    <div className='flex flex-col items-center space-y-6 shadow-md mb-4'>
         <Image  imageUrl={bg} alt='cloud' className='absolute top-0 right-0'/>
         <Date value='20 July, Sunday 12:00' className='text-white' />
         <Name value='New York' className='text-white text-3xl font-bold'/>

@@ -4,7 +4,7 @@ import OtherCities from "./components/OtherCities";
 import SearchBar from "./components/SearchBar";
 
 const WeatherCard = () => (
-    <div className="w-4/5 h-4/5 mx-auto rounded-3xl bg-white overflow-hidden shadow-blue-800 grid grid-cols-6 grid-rows-6" >
+    <div className="md:w-fit h-fit mx-auto rounded-3xl bg-white overflow-hidden shadow-blue-800 grid grid-cols-6 grid-rows-6" >
         <div className="row-span-6 col-span-2 m-6 rounded-3xl  relative" 
            style={{
             backgroundImage:
