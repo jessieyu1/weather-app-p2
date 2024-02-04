@@ -6,9 +6,10 @@ import cloudyDay from '../../../WeatherIcon/assets/Cloudy_day.png'
 import { useState, useEffect } from "react";
 import getForecast from "../../../../apis/getForecast";
 
+//TODO: 
 const CITY = 'Sydney'
 const Forecast = () => {
-    const [tempRange, setTempRange] = useState('29-35');
+    const [tempRange, setTempRange] = useState();
 
     const [loading, setLoading] = useState(true)
     useEffect(() => {
